@@ -123,7 +123,11 @@ body {
     }
   
     .hero-banner-img {
-      display: none;
+      z-index: -1;
+      top:300px;
+      width:50% ;   
+      height: 100%;  
+      display:inline-flexbox;
     }
   
     .exercise-card {
